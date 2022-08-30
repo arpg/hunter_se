@@ -1,0 +1,2 @@
+hunter_ros/hunter_base:hunter_ros/hunter_bringup:hunter_ros/hunter_msgs:marble_ouster/ouster_ros:nmea_tcp_driver:ugv_sdk
+-DCATKIN_DEVEL_PREFIX=/home/arpg/hunter_ws/devel -DCMAKE_INSTALL_PREFIX=/home/arpg/hunter_ws/install -G Unix Makefiles
