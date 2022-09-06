@@ -8,6 +8,11 @@ To run first format the can connecton to read/send messages to motors
 ```
 rosrun hunter_bringup bringup_can2usb.bash
 ```
+launch the node to publish all the Can data from Hunter SE platform:
+
+```
+roslaunch hunter_bringup hunter_robot_base.launch
+```
 
 Then launch all the sensor nodes with the launch file:
 
